@@ -18,7 +18,7 @@ alpha=0.005    # set the learning rate alpha and iteration numbers iters
 iters=30000    # set iteration number
 
 score=featureMapping.featureMapping(score,orders)
-[cow,col]=score.shape
+[row,col]=score.shape
 
 theta=np.random.randint(-10,10,col)      
 
