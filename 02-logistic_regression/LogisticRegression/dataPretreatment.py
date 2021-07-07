@@ -9,8 +9,8 @@ def dataPretreatment(path):
     score=data[:,0:-1]      # score correspond to the input data(x)
     y=data[:,-1]           # y correspond to if the student is qualified
 
-    [cow,col]=score.shape
-    bias=np.ones(cow)
+    [row,col]=score.shape
+    bias=np.ones(row)
     score=np.insert(score,0,bias,axis=1)
 
     return score,y 
