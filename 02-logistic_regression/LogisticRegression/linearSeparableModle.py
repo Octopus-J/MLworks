@@ -10,7 +10,7 @@ if path=='':
 
 [score,y]=dataPretreatment.dataPretreatment(path)
 
-[cow,col]=score.shape
+[row,col]=score.shape
 
 theta=np.random.randint(-150,150,col)      
 # here is a problem that if you set the initial value of thetas too small (here means below 120),
