@@ -21,7 +21,7 @@ trainingSet=dataPretreatment.dataPretreatment(path)  #get 3 sets
 x=trainingSet[:,0:-1]   # x is the population and the bias which combines with the theta0
 y=trainingSet[:,-1]    # y is the profit
 
-[cow,col]=x.shape
+[row,col]=x.shape
 theta=np.zeros(col)
 
 theta=np.random.randint(-10,10,size=[1,col])
