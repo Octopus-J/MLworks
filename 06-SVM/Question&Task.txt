@@ -1,0 +1,9 @@
+具体可以参见ex6.pdf
+一
+任务1：利用ex6data1.m的数据来进行初步的SVM分类尝试，并在此过程中观察惩罚系数C的影响。
+任务2：利用ex6data2.m的数据来尝试用高斯核的SVM进行分类，并观察σ的影响
+任务3：利用ex6data3.m的数据来选择使用最优的C和σ（依然是带有高斯核的SVM）
+
+二
+利用SVM构建一个垃圾邮件分类器。
+vocab.txt是词汇列表，spamtrain和spamtest是经过NLP处理获得的向量，spamSample1,2是原文本。
