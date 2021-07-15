@@ -1,5 +1,5 @@
 # MLworks
-Some small codes about ML,implemented in python3
+Some small codes about ML, implemented in python3.6.6
 
 # Hello!Thanks for your reading
 
