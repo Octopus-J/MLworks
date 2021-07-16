@@ -1,0 +1,7 @@
+在本问题中包含两个任务
+1.实现K-means聚类算法，并将其应用于压缩图像
+2.在第二部分中，使用主成分分析来获得人脸图像的低维表示
+ex7data1.mat是PCA的数据
+ex7data2是Kmeans的数据
+ex7faces是人脸数据
+bird_small.png是实例照片
